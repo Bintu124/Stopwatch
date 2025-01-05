@@ -19,7 +19,8 @@ body {
 }
 
 h2 {
-    font-size: 35.5px;
+    font-size: 42.5px;
+    color: solid black;
 }
 
 #display {
