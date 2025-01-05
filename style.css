@@ -1,0 +1,47 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.time {
+    border: 5px solid black;
+    padding: 15px;
+    border-radius: 40px;
+}
+
+.controls button {
+    font-size: 1.5rem;
+    min-width: 125px;
+    padding: 10px 20px;
+    border-radius: 9px;
+}
+
+h2 {
+    font-size: 35.5px;
+}
+
+#display {
+    font-size: 5rem;
+    font-family: monospace;
+    color: hsl(0, 0%, 30%);
+}
+
+#start {
+background-color: green;
+color: white;
+border: none;
+}
+
+#stop {
+    background-color: red;
+    color: white;
+    border: none;
+}
+
+#reset {
+    background-color: blue;
+    color: white;
+    border: none;
+}
